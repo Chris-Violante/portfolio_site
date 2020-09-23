@@ -1,15 +1,25 @@
 import React, { Component } from 'react';
 import './App.css';
+import Navigation from './components/Navigation';
+import 'materialize-css/dist/css/materialize.min.css'
+import M from 'materialize-css/dist/js/materialize'
 
 class App extends Component {
+  
+  componentDidMount() {
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems);
+    });
+  }
   render () {
     return (
       <div className="App-Container">
         <header className="App-Header">
-      {/* Nav will go here  */}
+          <Navigation />
         </header>
         <main>
-          <div>Hello World I Am Chris Violante</div>
+          
         </main>
       </div>
     )
