@@ -3,6 +3,7 @@ import './App.css';
 import Navigation from './components/Navigation';
 import 'materialize-css/dist/css/materialize.min.css'
 import M from 'materialize-css/dist/js/materialize'
+import About from './components/About'
 
 class App extends Component {
   
@@ -19,6 +20,7 @@ class App extends Component {
           <Navigation />
         </header>
         <main>
+          <About />
           
         </main>
       </div>
