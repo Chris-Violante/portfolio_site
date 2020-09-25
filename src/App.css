@@ -1,3 +1,14 @@
 #root > div > header > nav {
     box-shadow: none;
 }
+
+.overlay {
+    background-image: url('https://i.imgur.com/4PCeI4f.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#root > div > header {
+    height: 0;
+}

@@ -10,12 +10,12 @@ class Navigation extends Component {
             <>
             <nav className="N/A transparent">
             <div className="nav-wrapper">              
-              <a href="#!" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons black">menu</i></a>
+              <a href="#!" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
               <ul className="right hide-on-med-and-down">
-                <li className="black"><a href="#!">ABOUT</a></li>
-                <li className="black"><a href="#!">SKILLS</a></li>
-                <li className="black"><a href="#!">PROJECTS</a></li>
-                <li className="black"><a href="#!">CONTACT INFO</a></li>
+                <li><a href="#!">ABOUT</a></li>
+                <li><a href="#!">SKILLS</a></li>
+                <li><a href="#!">PROJECTS</a></li>
+                <li><a href="#!">CONTACT INFO</a></li>
               </ul>
             </div>
           </nav>
