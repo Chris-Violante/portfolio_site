@@ -8,24 +8,24 @@ class Navigation extends Component {
     render () {
         return (
             <>
-            <nav>
-            <div className="nav-wrapper">
-              <a href="#!" className="brand-logo">Logo</a>
-              <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+            <nav className="N/A transparent">
+            <div className="nav-wrapper">              
+              <a href="#!" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons black">menu</i></a>
               <ul className="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">Javascript</a></li>
-                <li><a href="mobile.html">Mobile</a></li>
+                <li className="black"><a href="#!">ABOUT</a></li>
+                <li className="black"><a href="#!">SKILLS</a></li>
+                <li className="black"><a href="#!">PROJECTS</a></li>
+                <li className="black"><a href="#!">CONTACT INFO</a></li>
               </ul>
             </div>
           </nav>
         
           <ul className="sidenav" id="mobile-demo">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
+                <li><a href="#!">CHRIS VIOLANTE</a></li> 
+                <li><a href="#!">ABOUT</a></li>
+                <li><a href="#!">SKILLS</a></li>
+                <li><a href="#!">PROJECTS</a></li>
+                <li><a href="#!">CONTACT INFO</a></li>
           </ul>
           </>
         )

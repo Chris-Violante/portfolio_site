@@ -9,7 +9,7 @@ class App extends Component {
   componentDidMount() {
     document.addEventListener('DOMContentLoaded', function() {
       var elems = document.querySelectorAll('.sidenav');
-      var instances = M.Sidenav.init(elems);
+       M.Sidenav.init(elems);
     });
   }
   render () {
